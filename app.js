@@ -30,6 +30,6 @@ app.post("/reDirect",function(req,res){
 
 
 
-app.listen(3001,function(req,res){
+app.listen(process.env.PORT || 3001,function(req,res){
     console.log("server run in 3001")
 })
